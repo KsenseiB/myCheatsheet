@@ -1,0 +1,97 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin-bottom: 2rem;
+}
+.nav {
+  width: 100%;
+  background-color: blueviolet;
+  margin: 0 auto;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+main {
+  width: 90vw;
+  margin: 1.2rem auto;
+  box-shadow: 0 0 35px 3px black;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  /* too much?
+  color: #ffffff;
+  background: #fff;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    blueviolet 0px 0px 20px, blueviolet 0px 0px 30px, blueviolet 0px 0px 40px,
+    blueviolet 0px 0px 50px, blueviolet 0px 0px 75px;
+    */
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  font-weight: bold;
+}
+/*
+a:active {
+}*/
+
+a:visited {
+  text-decoration: line-through;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li {
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+li:hover {
+  color: black;
+}
+
+table {
+  width: 98%;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+td {
+  padding: 5px;
+  border: 1px dotted black;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  flex-direction: column;
+}
+p {
+  text-align: center;
+  font-size: 0.8rem;
+}

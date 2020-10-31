@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Noob helper</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <script src="jquery-3.5.1.js"></script>
+</head>
+<body>
+   <header>
+      <h1>Ksensei's cheatsheet;</h1>
+       <nav class="nav">
+        <ul>
+          <li id="tools" data-pointer="1">Tools</li>
+          <li id="games" data-pointer="2">Games</li>
+          <li id="practice" data-pointer="3">Interactive tutorials</li>
+          <li id="vids" data-pointer="4">Video Tutorials</li>
+          <li id="articles" data-pointer="5">Articles & written tutorials</li>
+          <li id="institution" data-pointer="6">Institutions</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="table-tools" class="hide" data-target="1">
+        <table>
+          <thead>
+            <tr>
+              <th>site link</th>
+              <th>content</th>
+              <th>level</th>
+            </tr>
+          </thead>
+          <tr>
+            <td><a href="https://dorey.github.io/JavaScript-Equality-Table/">JS Equality table</a></td>
+            <td>Table showing true-false / 1-0 / == / ===</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://jsfiddle.net/">JSfiddle</a></td>
+            <td>Online editor playground</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://codepen.io/">Codepen</a></td>
+            <td>Online editor playground</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://oscarotero.com/jquery/">Jquery cheetsheat</a></td>
+            <td>Jquery cheetsheat</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://gtmetrix.com/">GTmetrix</a></td>
+            <td>Check your websites performance speed</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://htmlcheatsheet.com/">CheetSheat</a></td>
+            <td>HTML & CSS & JS & JQ & AMP & SEO cheetsheat</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a></td>
+            <td>Fake Online REST API for testing and prototyping</td>
+            <td>advanced</td>
+          </tr>
+          <tr>
+            <td><a href="https://public-apis.xyz/">Free APIs for Developers</a></td>
+            <td>APIs with users/comments/etc so you dont need to write your own database for project</td>
+            <td>advanced</td>
+          </tr>
+          <tr>
+            <td><a href="https://tachyons.io/">Tachyons</a></td>
+            <td>Library of shortcuts for css</td>
+            <td>intermidiate</td>
+          </tr>
+          <tr>
+            <td><a href="https://momentjs.com/">Moments.js</a></td>
+            <td>Formmats for date thingies</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.cleancss.com/css-minify/">CSS Formatter</a></td>
+            <td>Minifies code, has more options for different generators and languages</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://regex101.com/">RegularExpression101</a></td>
+            <td>A tool to tryout RegEx, with cheatsheet and helper tips</td>
+            <td>intermidiate</td>
+          </tr>
+          <tr>
+            <td><a href="https://html-css-js.com/">html-css-js</a></td>
+            <td>Lots of different generators</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://type-scale.com/">Type-scale</a></td>
+            <td>Converter of px/em/rem</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://hatchful.shopify.com/">Hatchful</a></td>
+            <td>Logo generator</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.toptal.com/designers/htmlarrows/symbols/">Toptal</a></td>
+            <td>HTML symbols codes</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://coolors.co/palettes/trending">Coolors</a></td>
+            <td>Ready to use color combinations</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://polypane.app/css-specificity-calculator/">Polypane</a></td>
+            <td>CSS specificity calculator</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://grid.layoutit.com/">Layoutit!</a></td>
+            <td>CSS Grid code generator using a visual table</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://flexbox.malven.co/">Flex</a></td>
+            <td>Visual cheatsheet for CSS flexbox</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/">CSS-Trics</a></td>
+            <td>Ready media queries for standard devices</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://sdras.github.io/array-explorer/">JS Array/Object explorer</a></td>
+            <td>Helps you find the methods you're probably looking for by asking questions</td>
+            <td>intermidiate</td>
+          </tr>
+          <tr>
+            <td><a href="http://projects.verou.me/css3patterns/">CSS Patterns Gallery</a></td>
+            <td>Ready CSS code of patterns</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://zurb.com/playground/motion-ui">Zurb</a></td>
+            <td> Sass library for creating flexible CSS transitions and animations</td>
+            <td>advanced</td>
+          </tr>
+          <tr>
+            <td><a href="https://imgbb.com/">ImgBB</a></td>
+            <td>Upload images</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://snippleaf.com/">SnippLeaf</a></td>
+            <td>Save any code snippets</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://lodash.com/">Lodash</a></td>
+            <td>Js library</td>
+            <td>intermidiate</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.electronjs.org/">Electron</a></td>
+            <td>Framework for creating native applications</td>
+            <td>intermidiate</td>
+          </tr>
+        </table>
+      </div>
+      </div>
+ 
+      <div id="table-games" class="hide" data-target="2">
+        <table>
+          <thead>
+            <tr>
+              <th>site link</th>
+              <th>content</th>
+              <th>level</th>
+            </tr>
+          </thead>
+          <tr>
+            <td><a href="https://edabit.com/challenges">Edabit</a></td>
+            <td>Lots of challanges of all levels</td>
+            <td>all</td>
+          </tr>
+          <tr>
+            <td><a href="https://codecombat.com/">Code Combat</a></td>
+            <td>Learn Js / Python</td>
+            <td>Intermidiate</td>
+          </tr>
+          <tr>
+            <td><a href="https://flexboxzombies.com/">Flex zombies</a></td>
+            <td>Practice CSS flexbox, free</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.flexboxdefense.com/">Flex Defense</a></td>
+            <td>Practice CSS flexbox, free</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://flexboxfroggy.com/">FlexBox Froggy</a></td>
+            <td>Practice CSS flexbox, free</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://codepip.com/games/">Codepip</a></td>
+            <td>Different games, free & paid</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://mastery.games/serviceworkies/">Service Workies</a></td>
+            <td>Understand service workers</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td><a href="https://play.elevatorsaga.com/">Elevator Saga</a></td>
+            <td>Practice JS, free</td>
+            <td>Intermidiate</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.codingame.com/start">CodinGame</a></td>
+            <td>Big variety of games and languages</td>
+            <td>all</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.codemonkey.com/">CodeMonkey</a></td>
+            <td>Free & paid</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://mastery.games/gridcritters/">Grid Critters</a></td>
+            <td>Practice CSS grid, paid</td>
+            <td>easy</td>
+          </tr>
+        </table>
+      </div>
+ 
+      <div id="table-practice" class="hide" data-target="3">
+        <table>
+          <thead>
+            <tr>
+              <th>site link</th>
+              <th>content</th>
+              <th>level</th>
+            </tr>
+          </thead>
+          <tr>
+            <td><a href="https://www.codecademy.com/">CodeAcademy</a></td>
+            <td>Tutorials with practice</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://scrimba.com/">Scrimba</a></td>
+            <td>Tutorials with practice</td>
+            <td>all</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.theodinproject.com/">The Odin Project</a></td>
+            <td>Tutorials with practice</td>
+            <td>all</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.khanacademy.org/computing/computer-programming">Khan Academy</a></td>
+            <td>Tutorials with practice</td>
+            <td>all</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.sololearn.com/">SoloLearn</a></td>
+            <td>tutorials with practice</td>
+            <td>easy</td>
+          </tr>
+        </table>
+      </div>
+ 
+      <div id="table-vids" class="hide" data-target="4">
+        <table>
+          <thead>
+            <tr>
+              <th>site link</th>
+              <th>content</th>
+              <th>level</th>
+            </tr>
+          </thead>
+          <tr>
+            <td><a href="https://www.sololearn.com/">SoloLearn</a></td>
+            <td>tutorials with practice</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.sololearn.com/">SoloLearn</a></td>
+            <td>tutorials with practice</td>
+            <td>easy</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.sololearn.com/">SoloLearn</a></td>
+            <td>tutorials with practice</td>
+            <td>easy</td>
+          </tr>
+        </table>
+      </div>
+ 
+      <div id="table-articles" class="hide" data-target="5">
+        <table>
+          <thead>
+            <tr>
+              <th>site link</th>
+              <th>content</th>
+              <th>language</th>
+            </tr>
+          </thead>
+          <tr>
+            <td><a href="https://css-tricks.com/">CSS-Tricks</a></td>
+            <td>Everything you need to know in css</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.bitdegree.org/learn/html5-tags">Bitdegree</a></td>
+            <td>HTML5 tags</td>
+            <td>en</td>
+          </tr>
+            <td><a href="https://www.tutorialrepublic.com/html-reference/html5-tags.php">Tutorial Republic</a></td>
+            <td>HTML5 complete tags list</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://learn.shayhowe.com/">Learn to Code HTML & CSS</a></td>
+            <td>Beginner & advanced courses</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/">
+               CSS Naming Conventions</a></td>
+            <td>How to name css properties efficiently</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://zellwk.com/blog/js-functions/">Zellwk</a></td>
+            <td>Understanding JavaScript Functions</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://learn.skillcrush.com/skillcrush-free-bootcamp/">Skillcrush</a></td>
+            <td>Free bootcamp</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://dribbble.com/">Dribbble</a></td>
+            <td>Sites for inspiration</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.lapa.ninja/category/creative/">Lapa</a></td>
+            <td>Landing pages for inspiration</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.thewebdeveloperguide.com/javascript-get-data-attribute/">JS get-data</a></td>
+            <td>An interesting way to connect between different element in the html using attributs</td>
+            <td>en</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.devschool.co.il/guides/Javascript/Javascript-Guide.aspx">Devschool Israel</a></td>
+            <td>HTML, CSS, SQL, JS, PHP, ASP.NET, guides & generators</td>
+            <td>he</td>
+          </tr>
+          <tr>
+            <td><a href="http://css-masters.co.il/">Css Masters Israel</a></td>
+            <td>Css Israel community</td>
+            <td>he</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="table-insti" class="hide" data-target="6">
+        <table>
+          <thead>
+            <tr>
+              <th>site link</th>
+              <th>content</th>
+              <th>cost?</th>
+            </tr>
+          </thead>
+          <tr>
+            <td><a href="https://she-codes.org/he/home-heb/">SheCodes;</a></td>
+            <td></td>
+            <td>200nis</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.appleseeds.org.il/bootcampdruze">Apple Seeds</a></td>
+            <td>Fullstack bootcamp full cholarship, for druze</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.wecode.org.il/faq">WeCode</a></td>
+            <td>Fullstack bootcamp, for anyone</td>
+            <td>5000nis</td>
+          </tr>
+          <tr>
+            <td><a href="https://infinitylabs.co.il/">Infinity Labs</a></td>
+            <td>Fullstack web developement, anyone with degree</td>
+            <td>0, pay when done</td>
+          </tr>
+        </table>
+      </div>
+
+    </main>
+
+    <script src="code.js"></script>
+    
+    <footer>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="ANHUJZR8"></script>
+      <div class="fb-comments" data-href="https://codepen.io/ksenia-san/pen/rNLdmJE" data-numposts="10" data-width=""></div>
+      <p>Dedicated to SheCodes;&copy; community&#10084; </p>
+    </footer>
+
+   
+</body>
+</html>
