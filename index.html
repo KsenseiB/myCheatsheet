@@ -1,496 +1,1002 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Noob helper</title>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
-   <script src="jquery-3.5.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification"
+    content="4hZvVjdyshAUh8Q4-qG8sWc79c3gi0o1D4RXIVYR6s4" />
+  <title>Noob helper</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-3.5.1.js"></script>
 </head>
+
 <body>
-   <header>
-      <h1>Ksensei's cheatsheet;</h1>
-       <nav class="nav">
-        <ul>
-          <li id="tools" data-pointer="1">Tools</li>
-          <li id="games" data-pointer="2">Games</li>
-          <li id="practice" data-pointer="3">Interactive tutorials</li>
-          <li id="vids" data-pointer="4">Full courses</li>
-          <li id="articles" data-pointer="5">Articles & written tutorials</li>
-          <li id="institution" data-pointer="10">Institutions</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div id="table-tools" class="hide" data-target="1">
-        <table>
-          <thead>
-            <tr>
-              <th>site link</th>
-              <th>content</th>
-              <th>level</th>
-            </tr>
-          </thead>
-          <tr>
-            <td><a href="https://dorey.github.io/JavaScript-Equality-Table/">JS Equality table</a></td>
-            <td>Table showing true-false / 1-0 / == / ===</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://jsfiddle.net/">JSfiddle</a></td>
-            <td>Online editor playground</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://codepen.io/">Codepen</a></td>
-            <td>Online editor playground</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://oscarotero.com/jquery/">Jquery cheetsheat</a></td>
-            <td>Jquery cheetsheat</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://gtmetrix.com/">GTmetrix</a></td>
-            <td>Check your websites performance speed</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://htmlcheatsheet.com/">CheetSheat</a></td>
-            <td>HTML & CSS & JS & JQ & AMP & SEO cheetsheat</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a></td>
-            <td>Fake Online REST API for testing and prototyping</td>
-            <td>advanced</td>
-          </tr>
-          <tr>
-            <td><a href="https://public-apis.xyz/">Free APIs for Developers</a></td>
-            <td>APIs with users/comments/etc so you dont need to write your own database for project</td>
-            <td>advanced</td>
-          </tr>
-          <tr>
-            <td><a href="https://tachyons.io/">Tachyons</a></td>
-            <td>Library of shortcuts for css</td>
-            <td>intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://momentjs.com/">Moments.js</a></td>
-            <td>Formmats for date thingies</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.cleancss.com/css-minify/">CSS Formatter</a></td>
-            <td>Minifies code, has more options for different generators and languages</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://regex101.com/">RegularExpression101</a></td>
-            <td>A tool to tryout RegEx, with cheatsheet and helper tips</td>
-            <td>intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://html-css-js.com/">html-css-js</a></td>
-            <td>Lots of different generators</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://type-scale.com/">Type-scale</a></td>
-            <td>Converter of px/em/rem</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://hatchful.shopify.com/">Hatchful</a></td>
-            <td>Logo generator</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.toptal.com/designers/htmlarrows/symbols/">Toptal</a></td>
-            <td>HTML symbols codes</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://coolors.co/palettes/trending">Coolors</a></td>
-            <td>Ready to use color combinations</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://polypane.app/css-specificity-calculator/">Polypane</a></td>
-            <td>CSS specificity calculator</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://grid.layoutit.com/">Layoutit!</a></td>
-            <td>CSS Grid code generator using a visual table</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://flexbox.malven.co/">Flex</a></td>
-            <td>Visual cheatsheet for CSS flexbox</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/">CSS-Trics</a></td>
-            <td>Ready media queries for standard devices</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://sdras.github.io/array-explorer/">JS Array/Object explorer</a></td>
-            <td>Helps you find the methods you're probably looking for by asking questions</td>
-            <td>intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="http://projects.verou.me/css3patterns/">CSS Patterns Gallery</a></td>
-            <td>Ready CSS code of patterns</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://zurb.com/playground/motion-ui">Zurb</a></td>
-            <td> Sass library for creating flexible CSS transitions and animations</td>
-            <td>advanced</td>
-          </tr>
-          <tr>
-            <td><a href="https://imgbb.com/">ImgBB</a></td>
-            <td>Upload images</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://snippleaf.com/">SnippLeaf</a></td>
-            <td>Save any code snippets</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://lodash.com/">Lodash</a></td>
-            <td>Js library</td>
-            <td>intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/">React lifecycle</a></td>
-            <td>A visualization of React lifecycle methods (diagram)</td>
-            <td>intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.electronjs.org/">Electron</a></td>
-            <td>Framework for creating native applications</td>
-            <td>intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://next.json-generator.com/">JSON generator</a></td>
-            <td>Generator that converts js object to a json file with "key":"value" pair</td>
-            <td>intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.codecademy.com/resources/cheatsheets/all">CodeAcademy</a></td>
-            <td>LOTS of cheatsheet of many different topics</td>
-            <td>all</td>
-          </tr>
-        </table>
-      </div>
-      </div>
- 
-      <div id="table-games" class="hide" data-target="2">
-        <table>
-          <thead>
-            <tr>
-              <th>site link</th>
-              <th>content</th>
-              <th>level</th>
-            </tr>
-          </thead>
-          <tr>
-            <td><a href="https://edabit.com/challenges">Edabit</a></td>
-            <td>Lots of challanges of all levels</td>
-            <td>all</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.codewars.com/">Codewars</a></td>
-            <td>Lots of challanges of all levels</td>
-            <td>all</td>
-          </tr>
-          <tr>
-            <td><a href="https://codecombat.com/">Code Combat</a></td>
-            <td>Learn Js / Python through a continuous game</td>
-            <td>Intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.frontendmentor.io/challenges">Front-end Mentor</a></td>
-            <td>Lots of front-end challanges of all levels</td>
-            <td>all</td>
-          </tr>
-          <tr>
-            <td><a href="https://flexboxzombies.com/">Flex zombies</a></td>
-            <td>Practice CSS flexbox, free</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="http://www.flexboxdefense.com/">Flex Defense</a></td>
-            <td>Practice CSS flexbox, free</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://flexboxfroggy.com/">FlexBox Froggy</a></td>
-            <td>Practice CSS flexbox, free</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://codepip.com/games/">Codepip</a></td>
-            <td>Different games, free & paid</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://mastery.games/serviceworkies/">Service Workies</a></td>
-            <td>Understand service workers</td>
-            <td>Advanced</td>
-          </tr>
-          <tr>
-            <td><a href="https://play.elevatorsaga.com/">Elevator Saga</a></td>
-            <td>Practice JS, free</td>
-            <td>Intermidiate</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.codingame.com/start">CodinGame</a></td>
-            <td>Big variety of games and languages</td>
-            <td>all</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.codemonkey.com/">CodeMonkey</a></td>
-            <td>Free & paid</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://mastery.games/gridcritters/">Grid Critters</a></td>
-            <td>Practice CSS grid, paid</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://100dayscss.com/">100 days css challange</a></td>
-            <td>Practice CSS by recreating examples</td>
-            <td>Intermidiate</td>
-          </tr>
-        </table>
-      </div>
- 
-      <div id="table-practice" class="hide" data-target="3">
-        <table>
-          <thead>
-            <tr>
-              <th>site link</th>
-              <th>content</th>
-              <th>level</th>
-            </tr>
-          </thead>
-          <tr>
-            <td><a href="https://www.freecodecamp.org/learn/">freeCodeCamp</a></td>
-            <td>Tutorials with practice, full organized curriculum for fullstack developement (front&back end)</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://scrimba.com/">Scrimba</a></td>
-            <td>Tutorials with practice</td>
-            <td>all</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.theodinproject.com/">The Odin Project</a></td>
-            <td>Tutorials with practice</td>
-            <td>all</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.khanacademy.org/computing/computer-programming">Khan Academy</a></td>
-            <td>Tutorials with practice</td>
-            <td>all</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.sololearn.com/">SoloLearn</a></td>
-            <td>Mini tutorials with easy practice</td>
-            <td>easy</td>
-          </tr>
-              <tr>
-                <td><a href="https://www.codecademy.com/">CodeAcademy</a></td>
-                <td>Tutorials with practice, free & paid content</td>
-                <td>easy</td>
-              </tr>
-        </table>
-      </div>
-      
-      <div id="table-vids" class="hide" data-target="4">
-        <table>
-          <thead>
-            <tr>
-              <th>site link</th>
-              <th>content</th>
-              <th>level</th>
-            </tr>
-          </thead>
-          <tr>
-            <td><a href="https://youtu.be/rAGx8TIpCLg">Elad Shechter</a></td>
-            <td>"The best ways to work with Responsive Design" CSS webinar in hebrew</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://youtu.be/CsZe6esv2gI">HillaShx</a></td>
-            <td>"Let's Git Started - סדנת גיט מעשית בסיסית (גיטהאב, cmd)" Githhub 3 hours webinar in hebrew</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://fb.watch/1tzl4CFxc7/">React webinar</a></td>
-            <td>Full 8 hours React.js webinar in hebrew</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.youtube.com/channel/UCNLuH65HGTjAWcXRNOE6rzg">Web Stuff</a></td>
-            <td>JS focused youtube channel in hebrew</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.youtube.com/user/javascriptisrael/videos">JavaScript Israel</a></td>
-            <td>JS focused youtube channel in hebrew</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://codedamn.com/courses">CodeDamn</a></td>
-            <td>Different courses free & paid</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.youtube.com/c/TheNetNinja">The Net Ninja</a></td>
-            <td>Short easy tutorials for many subjects</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.youtube.com/kepowob">Kevin Powell</a></td>
-            <td>CSS focused tutorials</td>
-            <td>easy</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.youtube.com/c/learncodeacademy">LearnCode.academy</a></td>
-            <td>Short easy tutorials for many subjects</td>
-            <td>easy</td>
-          </tr>
-        </table>
-      </div>
- 
-      <div id="table-articles" class="hide" data-target="5">
-        <table>
-          <thead>
-            <tr>
-              <th>site link</th>
-              <th>content</th>
-              <th>language</th>
-            </tr>
-          </thead>
-          <tr>
-            <td><a href="https://css-tricks.com/">CSS-Tricks</a></td>
-            <td>Everything you need to know in css</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.bitdegree.org/learn/html5-tags">Bitdegree</a></td>
-            <td>HTML5 tags</td>
-            <td>en</td>
-          </tr>
-            <td><a href="https://www.tutorialrepublic.com/html-reference/html5-tags.php">Tutorial Republic</a></td>
-            <td>HTML5 complete tags list</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://learn.shayhowe.com/">Learn to Code HTML & CSS</a></td>
-            <td>Beginner & advanced courses</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/">
-               CSS Naming Conventions</a></td>
-            <td>How to name css properties efficiently</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://zellwk.com/blog/js-functions/">Zellwk</a></td>
-            <td>Understanding JavaScript Functions</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://learn.skillcrush.com/skillcrush-free-bootcamp/">Skillcrush</a></td>
-            <td>Free bootcamp</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://dribbble.com/">Dribbble</a></td>
-            <td>Sites for inspiration</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.lapa.ninja/category/creative/">Lapa</a></td>
-            <td>Landing pages for inspiration</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.thewebdeveloperguide.com/javascript-get-data-attribute/">JS get-data</a></td>
-            <td>An interesting way to connect between different element in the html using attributs</td>
-            <td>en</td>
-          </tr>
-          <tr>
-            <td><a href="http://www.devschool.co.il/guides/Javascript/Javascript-Guide.aspx">Devschool Israel</a></td>
-            <td>HTML, CSS, SQL, JS, PHP, ASP.NET, guides & generators</td>
-            <td>he</td>
-          </tr>
-          <tr>
-            <td><a href="http://css-masters.co.il/">Css Masters Israel</a></td>
-            <td>Css Israel community</td>
-            <td>he</td>
-          </tr>
-        </table>
-      </div>
+  <header>
+    <h1>Noob cheatsheet;</h1>
+    <nav class="nav">
+      <ul>
+        <li id="tools" data-pointer="1">Tools</li>
+        <li id="games" data-pointer="2">Games</li>
+        <li id="practice" data-pointer="3">Interactive tutorials</li>
+        <li id="vids" data-pointer="4">Video Channels</li>
+        <li id="articles" data-pointer="5">Articles & written tutorials</li>
+        <li id="institution" data-pointer="6">Institutions</li>
+      </ul>
+    </nav>
+  </header>
 
-      <div id="table-insti" class="hide" data-target="10">
-        <table>
-          <thead>
-            <tr>
-              <th>site link</th>
-              <th>content</th>
-              <th>cost?</th>
-            </tr>
-          </thead>
+  <main>
+    <!-- Tools table-->
+    <div id="table-tools" class="hide" data-target="1">
+      <table>
+        <thead>
           <tr>
-            <td><a href="https://milgapo.co.il/?milga=_elevation">Milgapo</a></td>
-            <td>Different scholarships</td>
-            <td>scholarships</td>
+            <th>Link</th>
+            <th>Content</th>
+            <th>Subject</th>
           </tr>
-          <tr>
-            <td><a href="https://she-codes.org/he/home-heb/">SheCodes;</a></td>
-            <td></td>
-            <td>200nis</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.appleseeds.org.il/bootcampdruze">Apple Seeds</a></td>
-            <td>Fullstack bootcamp full cholarship, for druze</td>
-            <td>scholarship</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.wecode.org.il/faq">WeCode</a></td>
-            <td>Fullstack bootcamp, for anyone</td>
-            <td>5000nis</td>
-          </tr>
-          <tr>
-            <td><a href="https://infinitylabs.co.il/">Infinity Labs</a></td>
-            <td>Fullstack web developement, anyone with degree</td>
-            <td>0, pay when done</td>
-          </tr>
-        </table>
-      </div>
+        </thead>
+        <tr>
+          <td><a href="https://dorey.github.io/JavaScript-Equality-Table/">JS
+              Equality table</a></td>
+          <td>Table showing true-false / 1-0 / == / ===</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="JSEqualityTable"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://jsfiddle.net/">JSfiddle</a></td>
+          <td>Online editor playground</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="JSfiddle"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://codepen.io/">Codepen</a></td>
+          <td>Online editor playground</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="Codepen"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://oscarotero.com/jquery/">Jquery cheetsheat</a>
+          </td>
+          <td>Jquery cheetsheat</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="JqueryCheetsheat"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://gtmetrix.com/">GTmetrix</a></td>
+          <td>Check your websites performance speed</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="gtmetrix"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://htmlcheatsheet.com/">CheetSheat</a></td>
+          <td>HTML & CSS & JS & JQ & AMP & SEO cheetsheat</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="generalCheetSheat"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://jsonplaceholder.typicode.com/">JSON
+              Placeholder</a></td>
+          <td>Fake Online REST API for testing and prototyping</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="JSONAPIs"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://public-apis.xyz/">Free APIs for Developers</a>
+          </td>
+          <td>APIs with users/comments/etc so you dont need to write your own
+            database for project</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="freeAPIs"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://tachyons.io/">Tachyons</a></td>
+          <td>Library of shortcuts for css</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="Tachyons"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://momentjs.com/">Moments.js</a></td>
+          <td>Formmats for date thingies</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="Moments"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.cleancss.com/css-minify/">CSS Formatter</a>
+          </td>
+          <td>Minifies code, has more options for different generators and
+            languages</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="css-minify"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://regex101.com/">RegularExpression101</a></td>
+          <td>A tool to tryout RegEx, with cheatsheet and helper tips</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="regEx"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://html-css-js.com/">html-css-js</a></td>
+          <td>Lots of different generators</td>
+          <td>JS-CSS-HTML</td>
+          <td>
+            <div class="rw-ui-container" data-title="generators"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://type-scale.com/">Type-scale</a></td>
+          <td>Converter of px/em/rem</td>
+          <td>css</td>
+          <td>
+            <div class="rw-ui-container" data-title="scaleConverter"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://hatchful.shopify.com/">Hatchful</a></td>
+          <td>Logo generator</td>
+          <td>general</td>
+          <td>
+            <div class="rw-ui-container" data-title="logoGenerator"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://www.toptal.com/designers/htmlarrows/symbols/">Toptal</a>
+          </td>
+          <td>HTML symbols codes</td>
+          <td>HTML</td>
+          <td>
+            <div class="rw-ui-container" data-title="HTMLHex"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://coolors.co/palettes/trending">Coolors</a></td>
+          <td>Ready to use color combinations</td>
+          <td>general</td>
+          <td>
+            <div class="rw-ui-container" data-title="readyClorTemplates"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://polypane.app/css-specificity-calculator/">Polypane</a>
+          </td>
+          <td>CSS specificity calculator</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="CSSSpecificity"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://grid.layoutit.com/">Layoutit!</a></td>
+          <td>CSS Grid code generator using a visual table</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="gridGenerator"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://flexbox.malven.co/">Flex</a></td>
+          <td>Visual cheatsheet for CSS flexbox</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="flexCheatsheet"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/">CSS-Trics</a>
+          </td>
+          <td>Ready media queries for standard devices</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="CSSTrics"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://sdras.github.io/array-explorer/">JS Array/Object
+              explorer</a></td>
+          <td>Helps you find the methods you're probably looking for by asking
+            questions</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="JSexplorer"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="http://projects.verou.me/css3patterns/">CSS Patterns
+              Gallery</a></td>
+          <td>Ready CSS code of patterns</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="css3patterns"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://zurb.com/playground/motion-ui">Zurb</a></td>
+          <td>Sass library for creating flexible CSS transitions and animations
+          </td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="Zurb"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://imgbb.com/">ImgBB</a></td>
+          <td>Upload images</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="ImgBB"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://snippleaf.com/">SnippLeaf</a></td>
+          <td>Save any code snippets</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="SnippLeaf"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://lodash.com/">Lodash</a></td>
+          <td>Js library</td>
+          <td>NPM</td>
+          <td>
+            <div class="rw-ui-container" data-title="Lodash"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.electronjs.org/">Electron</a></td>
+          <td>Framework for creating native applications</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="Electron"></div>
+          </td>
+        </tr>
 
-    </main>
+        <tr>
+          <td><a href="https://rating-widget.com/">Rating-Widget</a></td>
+          <td>Add rating system just like this &#x2192; <div
+              class="rw-ui-container" data-title="ratingWidget"></div>
+          </td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="ratingWidget"></div>
+          </td>
+        </tr>
 
-    <script src="code.js"></script>
-    
-    <footer>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="ANHUJZR8"></script>
-      <div class="fb-comments" data-href="https://codepen.io/ksenia-san/pen/rNLdmJE" data-numposts="10" data-width=""></div>
-      <p>Dedicated to SheCodes;&copy; community&#10084; </p>
-    </footer>
+        <tr>
+          <td><a href="https://randomuser.me/">Random User Generator</a></td>
+          <td>Free, open-source API for generating random user data</td>
+          <td>API</td>
+          <td>
+            <div class="rw-ui-container" data-title="randomUserGenerator"></div>
+          </td>
+        </tr>
 
-   
+        <tr>
+          <td><a href="https://www.onlinegdb.com/">OnlineGDB</a></td>
+          <td>Online compiler and debugger tool for C, C++, Python, PHP, Ruby,
+            C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="GDBCompiler"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://www.jsonschemavalidator.net/">JSON Schema
+              validator</a></td>
+          <td>Online compiler and debugger tool for C, C++, Python, PHP, Ruby,
+            C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="JSONSchemaValidator"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a
+              href="https://www.codecademy.com/resources/cheatsheets/all">CodeAcademy</a>
+          </td>
+          <td>LOTS of cheatsheet of many different topics
+          </td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="jsonGen"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://next.json-generator.com/">JSON generator</a></td>
+          <td>Generator that converts js object to a json file with
+            "key":"value" pair
+          </td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="jsonGen"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://unicode-table.com/en/">Unicode Character
+              Table</a></td>
+          <td>Hex and Unicode codes like &#128156; = &128156;</td>
+          <td>HTML</td>
+          <td>
+            <div class="rw-ui-container" data-title="unicodeTable"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://snippet-generator.app/">Snippet Generator</a>
+          </td>
+          <td>Generator to make template snippets for JS. Generates for VSCode,
+            Sublime Text and Atom.</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="snippetGen"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://snippet-generator.app/">Snippet Generator</a>
+          </td>
+          <td>Generator to make template snippets for JS. Generates for VSCode,
+            Sublime Text and Atom.</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="snippetGen"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://accessible-colors.com/">Accessible Colors</a>
+          </td>
+          <td>Evaluate your color combination using the WCAG 2.0 guidelines for
+            contrast accessibility.</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="accessibleColors"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://brumm.af/shadows">Brumm</a></td>
+          <td>Box-shadow generator</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="boxShadowGen"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://xmlsitemapgenerator.org/">Xml Sitemap
+              Generator</a></td>
+          <td>Generate HTML, RSS and Google XML sitemaps for free. XML sitemaps
+            ensures the website is indexed quickly in search engines.</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="boxShadowGen"></div>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+    </div>
+
+    <!---------- Games Table------------>
+    <div id="table-games" class="hide" data-target="2">
+      <table>
+        <thead>
+          <tr>
+            <th>Link</th>
+            <th>Content</th>
+            <th>Subject</th>
+          </tr>
+        </thead>
+        <tr>
+          <td><a href="https://edabit.com/challenges">Edabit</a></td>
+          <td>Lots of challanges of all levels</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="Edabit"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://www.codewars.com/">Codewars </a></td>
+          <td>Lots of challanges of all levels</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="codeWars"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://codecombat.com/">Code Combat</a></td>
+          <td>Learn Js / Python</td>
+          <td>JS/Python</td>
+          <td>
+            <div class="rw-ui-container" data-title="codecombat"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://flexboxzombies.com/">Flex zombies</a></td>
+          <td>Practice CSS flexbox, free</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="flexboxzombies"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="http://www.flexboxdefense.com/">Flex Defense</a></td>
+          <td>Practice CSS flexbox, free</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="flexboxdefense"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://flexboxfroggy.com/">FlexBox Froggy</a></td>
+          <td>Practice CSS flexbox, free</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="flexboxfroggy"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://codepip.com/games/">Codepip</a></td>
+          <td>Different games, free & paid</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="codepip"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://mastery.games/serviceworkies/">Service
+              Workies</a></td>
+          <td>Understand service workers</td>
+          <td>React</td>
+          <td>
+            <div class="rw-ui-container" data-title="serviceworkies"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://play.elevatorsaga.com/">Elevator Saga</a></td>
+          <td>Practice JS, free</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="elevatorsaga"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.codingame.com/start">CodinGame</a></td>
+          <td>Big variety of games and languages</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="codingame"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.codemonkey.com/">CodeMonkey</a></td>
+          <td>Free & paid</td>
+          <td>HTML</td>
+          <td>
+            <div class="rw-ui-container" data-title="codemonkey"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://mastery.games/gridcritters/">Grid Critters</a>
+          </td>
+          <td>Practice CSS grid, paid</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="gridcritters"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://100dayscss.com/">100 days css challange </a></td>
+          <td>Practice CSS by recreating examples </td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="100daysCSS"></div>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-------------- Interactive Practice Table---------------->
+    <div id="table-practice" class="hide" data-target="3">
+      <table>
+        <thead>
+          <tr>
+            <th>Link</th>
+            <th>Content</th>
+            <th>Subject</th>
+          </tr>
+        </thead>
+        <tr>
+          <td><a href="https://www.codecademy.com/">CodeAcademy</a></td>
+          <td>Tutorials with practice</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="codecademy"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://scrimba.com/">Scrimba</a></td>
+          <td>Tutorials with practice</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="scrimba"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.theodinproject.com/">The Odin Project</a>
+          </td>
+          <td>Tutorials with practice</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="theodinproject"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://www.khanacademy.org/computing/computer-programming">Khan
+              Academy</a></td>
+          <td>Tutorials with practice</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="khanacademy"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.sololearn.com/">SoloLearn</a></td>
+          <td>Tutorials with practice</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="sololearn"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://www.freecodecamp.org/learn/">freeCodeCamp </a>
+          </td>
+          <td>Tutorials with practice, full organized curriculum for fullstack
+            developement (front&back end)</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="freeCodeCamp"></div>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+    <!-------------- Video Table ---------------->
+    <div id="table-vids" class="hide" data-target="4">
+      <table>
+        <thead>
+          <tr>
+            <th>Link</th>
+            <th>Content</th>
+          </tr>
+        </thead>
+        <tr>
+          <td><a
+              href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg">The
+              Net Ninja youtube</a>
+            <br><a href="https://www.thenetninja.co.uk/">The Net Ninja
+              website</a>
+          </td>
+          <td>Variety of tutorials in programming & frameworks</td>
+          <td>General</td>
+
+          <td>
+            <div class="rw-ui-container" data-title="netNinja"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://www.youtube.com/user/programmingwithmosh">Programming
+              with Mosh youtube</a>
+            <br><a href="https://programmingwithmosh.com/">Programming with Mosh
+              website</a>
+          </td>
+          <td>Variety of tutorials in programming & frameworks</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="khanacademy"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.youtube.com/kepowob">Kevin Powell
+              youtube</a><br>
+            <a href="https://www.kevinpowell.co/">Kevin Powell website</a>
+          </td>
+          <td>CSS focused</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="kevinPowell"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://youtu.be/CsZe6esv2gI">HillaShx youtube</a></td>
+          <td>"Let's Git Started - סדנת גיט מעשית בסיסית (גיטהאב, cmd)" Githhub
+            3 hours webinar in hebrew </td>
+          <td>GIThub</td>
+          <td>
+            <div class="rw-ui-container" data-title="gitHubLec"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://www.youtube.com/user/javascriptisrael/videos">
+              JavaScript Israel youtube</a></td>
+          <td>JS focused youtube channel in hebrew </td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="JSIS"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://codedamn.com/courses"> CodeDamn</a></td>
+          <td>Different courses free & paid </td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="codedamn"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://www.youtube.com/c/learncodeacademy">
+              LearnCode.academy youtube</a></td>
+          <td>Short easy tutorials for many subjects </td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="learnCodeAcademy"></div>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+    <!---------------- Articles Table------------------>
+    <div id="table-articles" class="hide" data-target="5">
+      <table>
+        <thead>
+          <tr>
+            <th>Site</th>
+            <th>Content</th>
+            <th>Subject</th>
+          </tr>
+        </thead>
+        <tr>
+          <td><a
+              href="https://fs.blog/knowledge-project/barbara-oakley/">Learning
+              How To Learn</a></td>
+          <td>Barbara Oakley: Learning How To Learn</td>
+          <td>Life skills</td>
+          <td>
+            <div class="rw-ui-container" data-title="barbaraOakley"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://css-tricks.com/">CSS-Tricks</a></td>
+          <td>Everything you need to know in css</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="CSStricks"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.bitdegree.org/learn/html5-tags">Bitdegree</a>
+          </td>
+          <td>HTML5 tags</td>
+          <td>HTML</td>
+          <td>
+            <div class="rw-ui-container" data-title="HTMLbitdegree"></div>
+          </td>
+        </tr>
+        <td><a
+            href="https://www.tutorialrepublic.com/html-reference/html5-tags.php">Tutorial
+            Republic</a></td>
+        <td>HTML5 complete tags list</td>
+        <td>HTML</td>
+        <td>
+          <div class="rw-ui-container" data-title="HTMLtutorialrepublic"></div>
+        </td>
+        </tr>
+        <tr>
+          <td><a href="https://learn.shayhowe.com/">Learn to Code HTML & CSS</a>
+          </td>
+          <td>Beginner & advanced courses</td>
+          <td>HTML-CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="HTMLCSSlearn"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/">
+              CSS Naming Conventions</a></td>
+          <td>How to name css properties efficiently</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="freecodecampCSSNaming">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://zellwk.com/blog/js-functions/">Zellwk</a></td>
+          <td>Understanding JavaScript Functions</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="Zellwk"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://learn.skillcrush.com/skillcrush-free-bootcamp/">Skillcrush</a>
+          </td>
+          <td>Free bootcamp</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="skillcrush"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://dribbble.com/">Dribbble</a></td>
+          <td>Sites for inspiration</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="dribbbleInspiration"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.lapa.ninja/category/creative/">Lapa</a></td>
+          <td>Landing pages for inspiration</td>
+          <td>General</td>
+          <td>
+            <div class="rw-ui-container" data-title="lapaInspiration"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://www.thewebdeveloperguide.com/javascript-get-data-attribute/">JS
+              get-data</a></td>
+          <td>An interesting way to connect between different element in the
+            html using attributs</td>
+          <td>JS</td>
+          <td>
+            <div class="rw-ui-container" data-title="JSGetData"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="http://www.devschool.co.il/guides/Javascript/Javascript-Guide.aspx">Devschool
+              Israel</a></td>
+          <td>HTML, CSS, SQL, JS, PHP, ASP.NET, guides & generators</td>
+          <td>Variety</td>
+          <td>
+            <div class="rw-ui-container" data-title="devschool"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="http://css-masters.co.il/">Css Masters Israel</a></td>
+          <td>Css Israel community</td>
+          <td>CSS</td>
+          <td>
+            <div class="rw-ui-container" data-title="cssMasters"></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!---Institutions-->
+    <div id="table-insti" class="hide" data-target="6">
+      <table>
+        <thead>
+          <tr>
+            <th>Link</th>
+            <th>Content</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tr>
+          <td><a href="https://she-codes.org/he/home-heb/">SheCodes;</a></td>
+          <td>Women community for integrating women in hi-tech</td>
+          <td>
+            <div class="rw-ui-container" data-title="SheCodes"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.appleseeds.org.il/bootcampdruze">Apple
+              Seeds</a></td>
+          <td>Fullstack bootcamp full cholarship, for druze</td>
+          <td>
+            <div class="rw-ui-container" data-title="appleseeds"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.wecode.org.il/faq">WeCode</a></td>
+          <td>Fullstack bootcamp, for anyone</td>
+          <td>
+            <div class="rw-ui-container" data-title="wecode"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://infinitylabs.co.il/">Infinity Labs</a></td>
+          <td>Fullstack web developement, anyone with degree</td>
+          <td>
+            <div class="rw-ui-container" data-title="infinitylabs"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a
+              href="https://www.facebook.com/Forsatech.HighTechOpportunities">Facebook</a>
+            <br>
+            <a
+              href="https://www.forsatech.co.il/he/%D7%90%D7%A8%D7%9B%D7%99%D7%95%D7%9F-%D7%94%D7%93%D7%A8%D7%9B%D7%95%D7%AA-%D7%95%D7%94%D7%9B%D7%A9%D7%A8%D7%95%D7%AA/">Forsatech</a>
+          </td>
+          <td>Subsidized government program to integrate students and grduates
+            from the Arab society, who have studied or are studying
+            technological professions, into the high-tech industry.</td>
+          <td>
+            <div class="rw-ui-container" data-title="forsatech"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a
+              href="https://www.rayan.org.il/he/%D7%94%D7%9B%D7%A9%D7%A8%D7%95%D7%AA-%D7%95%D7%A7%D7%95%D7%A8%D7%A1%D7%99%D7%9D">Rayan</a><br>
+          </td>
+          <td>Government program to promote employment of Arab society
+            (including Bedouin, Druze and Circassians)
+          </td>
+          <td>
+            <div class="rw-ui-container" data-title="rayan"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a href="https://www.facebook.com/4575jdc/">Facebook</a><br>
+            <a href="https://promo.jdc.org.il/middle/">Emtsa Ha-Dereh<br>אמצע
+              הדרך</a>
+          </td>
+          <td>Employment promotion, for job seekers ages 45 to 75 with
+            employment experience who wish to reintegrate in work.
+          </td>
+          <td>
+            <div class="rw-ui-container" data-title="emtsaHaDereh"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://www.facebook.com/lamerhak/">Facebook</a><br>
+            <a
+              href="https://www.gov.il/he/departments/guides/special-populations-ethiopia">Lamerhak<br>למרחק</a>
+          </td>
+          <td>Employment guidance for Ethiopians program</td>
+          <td>
+            <div class="rw-ui-container" data-title="LaMerhak"></div>
+          </td>
+        </tr>
+
+        <!---- template ---->
+        <!---    <tr>
+          <td><a href=""></a><br>
+            <a href=""><br></a>
+          </td>
+          <td></td>
+          <td>
+            <div class="rw-ui-container" data-title="LaMerhak"></div>
+          </td>
+        </tr> --->
+
+      </table>
+    </div>
+  </main>
+  <footer>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0"
+      nonce="s6JWfm1p"></script>
+    <div class="fb-comments"
+      data-href="https://codepen.io/ksenia-san/pen/rNLdmJE" data-numposts="10"
+      data-width=""></div>
+    <p>Dedicated to SheCodes;&copy; community&#10084; </p>
+  </footer>
+
+  <!-- Rating  -->
+  <script type="text/javascript">
+    (function (d, t, e, m) {
+      // Async Rating-Widget initialization.
+      window.RW_Async_Init = function () {
+        RW.init({
+          huid: "470751",
+          uid: "0800f122a9bcbafc5ae81e9dd68ce1d3",
+          source: "website",
+          options: {
+            "advanced": {
+              "layout": {
+                "align": {
+                  "hor": "center",
+                  "ver": "top"
+                }
+              },
+              "font": {
+                "hover": {
+                  "color": "#6743B3"
+                },
+                "color": "#6743B3"
+              }
+            },
+            "size": "medium",
+            "type": "nero",
+            "label": {
+              "background": "#D7BEE4"
+            },
+            "style": "thumbs_bp",
+            "isDummy": false
+          }
+        });
+        RW.render();
+      };
+      // Append Rating-Widget JavaScript library.
+      var rw, s = d.getElementsByTagName(e)[ 0 ],
+        id = "rw-js",
+        l = d.location,
+        ck = "Y" + t.getFullYear() +
+          "M" + t.getMonth() + "D" + t.getDate(),
+        p = l.protocol,
+        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+      if (d.getElementById(id)) return;
+      rw = d.createElement(e);
+      rw.id = id;
+      rw.async = true;
+      rw.type = "text/javascript";
+      rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+      s.parentNode.insertBefore(rw, s);
+    }(document, new Date(), "script", "rating-widget.com/"));
+  </script>
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  <script
+    src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- stats.js lib -->
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="index.js"></script>
 </body>
+
 </html>
