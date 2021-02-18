@@ -124,6 +124,7 @@ canvas {
   left: 0;
   top: 0;
   z-index: -1;
+  vertical-align: bottom;
 }
 /* ---- particles.js container ---- */
 #particles-js {
