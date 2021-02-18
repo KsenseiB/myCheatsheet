@@ -7,12 +7,6 @@ html {
   background-color: transparent;
 }
 
-body {
-  margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .nav {
   width: 80vw;
   background-color: #3d18b6;
@@ -120,6 +114,10 @@ p {
 /*----------------------------------------*/
 
 /* ---- Particles ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
 
 canvas {
   position: absolute;
@@ -151,6 +149,8 @@ canvas {
   text-indent: 4px;
   line-height: 14px;
   padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 .js-count-particles {
   font-size: 1.1em;
