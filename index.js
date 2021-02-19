@@ -92,7 +92,7 @@ particlesJS("particles-js", {
       }
    },
    interactivity: {
-      detect_on: "canvas",
+      detect_on: "windows",
       events: {
          onhover: { enable: true, mode: "repulse" },
          onclick: { enable: true, mode: "push" },
