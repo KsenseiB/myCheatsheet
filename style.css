@@ -120,10 +120,9 @@ body {
 }
 
 canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
+  display: block;
+  position: fixed;
+  z-index: -10;
   vertical-align: bottom;
 }
 /* ---- particles.js container ---- */
